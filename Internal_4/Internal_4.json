@@ -1,0 +1,3194 @@
+{
+  "tags": {
+    "*": [
+      {
+        "identifier": "AffectedSOPInstanceUID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestedSOPInstanceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "MediaStorageSOPInstanceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedSOPInstanceUIDInFile",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstanceCreationDate",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstanceCreatorUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstanceCoercionDateTime",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstanceCoercionDateTime",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SOPClassUID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SOPClassUID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SOPInstanceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyDate",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SeriesDate",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AcquisitionDate",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContentDate",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OverlayDate",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "CurveDate",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AcquisitionDateTime",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AccessionNumber",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "FailedSOPInstanceUIDList",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "Manufacturer",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstitutionName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstitutionAddress",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstitutionCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferringPhysicianName",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferringPhysicianAddress",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferringPhysicianTelephoneNumbers",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferringPhysicianIdentificationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContextGroupExtensionCreatorUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StationName",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SeriesDescription",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InstitutionalDepartmentName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PhysiciansOfRecord",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PhysiciansOfRecordIdentificationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformingPhysicianName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformingPhysicianIdentificationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "NameOfPhysiciansReadingStudy",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PhysiciansReadingStudyIdentificationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OperatorsName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OperatorIdentificationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AdmittingDiagnosesDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ManufacturerModelName",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedPatientSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedSOPClassUID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedSOPInstanceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TransactionUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DerivationDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SourceImageSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "IrradiationEventUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "IdentifyingComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "CreatorVersionUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientName",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientName",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientName",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientID",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "IssuerOfPatientID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientBirthDate",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientBirthTime",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientSex",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientInsurancePlanCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientPrimaryLanguageCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientPrimaryLanguageModifierCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OtherPatientIDs",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OtherPatientNames",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OtherPatientIDsSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientBirthName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientAge",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientSize",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientWeight",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientAddress",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InsurancePlanIdentification",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientMotherBirthName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "MilitaryRank",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "BranchOfService",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "MedicalRecordLocator",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "MedicalAlerts",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "Allergies",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "CountryOfResidence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RegionOfResidence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientTelephoneNumbers",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "EthnicGroup",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "Occupation",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SmokingStatus",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AdditionalPatientHistory",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PregnancyStatus",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientReligiousPreference",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientSexNeutered",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ResponsiblePerson",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ResponsibleOrganization",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientIdentityRemoved",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DeidentificationMethod",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DeidentificationMethodCodeSequence",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContrastBolusAgent",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "BodyPartExamined",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DeviceSerialNumber",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DeviceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PlateID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "GeneratorID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "CassetteID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "GantryID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DateOfSecondaryCapture",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SoftwareVersions",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ProtocolName",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadiopharmaceuticalRoute",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadiopharmaceuticalVolume",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadiopharmaceuticalStartTime",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadiopharmaceuticalStartTime",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadionuclideTotalDose",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadionuclideHalfLife",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadionuclidePositronFraction",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadiopharmaceuticalSpecificActivity",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadiopharmaceuticalStartDateTime",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RadiopharmaceuticalStopDateTime",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DateOfLastCalibration",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AcquisitionDeviceProcessingDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AcquisitionComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DetectorID",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DateOfLastDetectorCalibration",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AcquisitionProtocolDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContributionDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyInstanceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SeriesInstanceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyID",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "FrameOfReferenceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SynchronizationFrameOfReferenceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ModifyingDeviceID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ModifyingDeviceManufacturer",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ModifiedImageDescription",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ImageComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "FrameComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ConcatenationUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DimensionOrganizationUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "BurnedInAnnotation",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "LongitudinalTemporalInformationModified",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PaletteColorLookupTableUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "LargePaletteColorLookupTableUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ImagePresentationComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyIDIssuer",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledStudyStartDate",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledStudyLocation",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledStudyLocationAETitle",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReasonForStudy",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestingPhysician",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestingService",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyArrivalDate",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyCompletionDate",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestedProcedureDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestedContrastAgent",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StudyComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedPatientAliasSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AdmissionID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "IssuerOfAdmissionID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledPatientInstitutionResidence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DischargeDiagnosisDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "SpecialNeeds",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ServiceEpisodeID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "IssuerOfServiceEpisodeID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ServiceEpisodeDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "CurrentPatientLocation",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientInstitutionResidence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientState",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "VisitComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledStationAETitle",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledPerformingPhysicianName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledProcedureStepDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledProcedureStepID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledPerformingPhysicianIdentificationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledStationName",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledProcedureStepLocation",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PreMedication",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformedStationAETitle",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformedStationName",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformedLocation",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformedProcedureStepEndDate",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformedProcedureStepID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PerformedProcedureStepDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "CommentsOnThePerformedProcedureStep",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AcquisitionContextSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestedProcedureID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PatientTransportArrangements",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestedProcedureLocation",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "NamesOfIntendedRecipientsOfResults",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "IntendedRecipientsOfResultsIdentificationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PersonIdentificationCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PersonAddress",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PersonTelephoneNumbers",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RequestedProcedureComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReasonForTheImagingServiceRequest",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OrderEnteredBy",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OrderEntererLocation",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OrderCallbackPhoneNumber",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PlacerOrderNumberImagingServiceRequest",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "FillerOrderNumberImagingServiceRequest",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ImagingServiceRequestComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ConfidentialityConstraintOnPatientDataDescription",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedGeneralPurposeScheduledProcedureStepTransactionUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScheduledHumanPerformersSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ActualHumanPerformersSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "HumanPerformerOrganization",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "HumanPerformerName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "VerifyingOrganization",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ConceptNameCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "VerifyingObserverSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "VerifyingObserverName",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "AuthorObserverSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ParticipantSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "CustodialOrganizationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "VerifyingObserverIdentificationCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PersonName",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "UID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TextValue",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ConceptCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContentTemplateSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContentSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TemplateExtensionOrganizationUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TemplateExtensionCreatorUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DecayFactor",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DoseCalibrationFactor",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ScatterFractionFactor",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "GraphicAnnotationSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TextObjectSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "GraphicObjectSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DisplayedAreaSelectionSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "GraphicLayerSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContentLabel",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContentCreatorName",
+        "action": "Z",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ContentCreatorIdentificationCodeSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "FiducialUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StorageMediaFileSetUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "IconImageSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TopicTitle",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TopicSubject",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TopicAuthor",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TopicKeywords",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DigitalSignatureUID",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedDigitalSignatureSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedSOPInstanceMACSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "MAC",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ModifiedAttributesSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "OriginalAttributesSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TextString",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "StructureSetDate",
+        "action": "D",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReferencedFrameOfReferenceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "RelatedFrameOfReferenceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DoseReferenceUID",
+        "action": "U",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ReviewerName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "Arbitrary",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "TextComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ResultsIDIssuer",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InterpretationRecorder",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InterpretationTranscriber",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InterpretationText",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InterpretationAuthor",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InterpretationApproverSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "PhysicianApprovingInterpretation",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InterpretationDiagnosisDescription",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ResultsDistributionListSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DistributionName",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DistributionAddress",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "InterpretationIDIssuer",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "Impressions",
+        "action": "K",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "ResultsComments",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DigitalSignaturesSequence",
+        "action": "X",
+        "justification": "Read from CTP"
+      },
+      {
+        "identifier": "DataSetTrailingPadding",
+        "action": "X",
+        "justification": "Read from CTP"
+      }
+    ]
+  },
+  "filters": [
+    {
+      "criterion": {
+        "content": "Manufacturer.contains('Vital Images') and  ManufacturerModelName.contains('Vitrea') and  SoftwareVersions.contains('7.11') and  BurnedInAnnotation.contains('NO')"
+      },
+      "justification": "vitrea 7.11 says it does not contain burned in info. But sometimes lies. Don't trust it"
+    },
+    {
+      "criterion": {
+        "content": "SOPClassUID.equals('1.2.840.10008.5.1.4.1.1.11.1') and not SeriesDescription.equals('Annotation')"
+      },
+      "justification": "GrayscaleSoftcopyPresentationStateStorage can contain PI"
+    }
+  ],
+  "pixel": [
+    {
+      "description": "model A",
+      "criterion": {
+        "content": "Rows.equals(1024) and Columns.equals(720) and Modelname.equals('model A')"
+      },
+      "areas": [
+         {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 50
+        }
+      ]
+    }
+  ],
+    "private": [
+    {
+      "elements": [
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]00",
+          "description": "AnonymizedPatientName",
+          "value_representation": "PN",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]01",
+          "description": "AnonymizedPatientID",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]02",
+          "description": "AnonymizedPatientNamePrefix",
+          "value_representation": "PN",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]03",
+          "description": "AnonymizedPatientIdPrefix",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]04",
+          "description": "InternalPatientNameChanged",
+          "value_representation": "PN",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]05",
+          "description": "InternalPatientIdChanged",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]06",
+          "description": "InternalStudyAndSeriesIdChanged",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]10",
+          "description": "AnonymizedAccessionNumber",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]11",
+          "description": "AnonymizedStudyId",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]21",
+          "description": "ProjectName",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]22",
+          "description": "SiteName",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]23",
+          "description": "SiteID",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]24",
+          "description": "TrialName",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]25",
+          "description": "Subject",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]26",
+          "description": "UIDRoot",
+          "value_representation": "UI",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]27",
+          "description": "JobID",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]28",
+          "description": "SourceInstanceID",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]70",
+          "description": "BasicConfidentiallyProfile",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]71",
+          "description": "CleanPixelDataOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]72",
+          "description": "CleanRecognizableVisualFeaturesOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]73",
+          "description": "CleanGraphicsOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]74",
+          "description": "CleanStructuredContentOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]75",
+          "description": "CleanDescriptorsOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]76",
+          "description": "RetainLongitudinalTemporalInformationWithFullDatesOptions",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]77",
+          "description": "RetainPatientCharacteristicsOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]78",
+          "description": "RetainDeviceIdentityOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]79",
+          "description": "RetainUIDsOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]80",
+          "description": "RetainSafePrivateOption",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]81",
+          "description": "RetainLongitudinalTemporalInformationWithModifiedDatesOptions",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]82",
+          "description": "InternalDatesChanged",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]90",
+          "description": "CallingAET",
+          "value_representation": "AE",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]91",
+          "description": "CallingIP",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0075,[RADBOUDUMCANONYMIZER]92",
+          "description": "CalledAET",
+          "value_representation": "AE",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Private DICOM elements used for guiding the de-identification process"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0019,[SIEMENS MED SP DXMG WH AWS 1]01",
+          "description": "AECCoordinates",
+          "value_representation": "UL",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0019,[SIEMENS MED SP DXMG WH AWS 1]02",
+          "description": "AECCoordinates Size",
+          "value_representation": "US",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0019,[SIEMENS MED SP DXMG WH AWS 1]05",
+          "description": "UNKNOWN_(LO:Always0)",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS MED SP DXMG WH AWS 1]06",
+          "description": "UNKNOWN_(LO:Always0)",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS MED SP DXMG WH AWS 1]10",
+          "description": "DerivationDescription",
+          "value_representation": "ST",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0041,[SIEMENS MED SP DXMG WH AWS 1]02",
+          "description": "ReasonForTheRequestedProcedure",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]10",
+          "description": "UNKNOWN_(LO:Some(Recon)Parameters)",
+          "value_representation": "ST",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]20",
+          "description": "UNKNOWN_(LO:HistogramStatistics)",
+          "value_representation": "ST",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]21",
+          "description": "UNKNOWN_(LO:SIEMENS_TOMO)",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]32",
+          "description": "ImagePosition(Tomo)",
+          "value_representation": "DS",
+          "value_multiplicity": "3"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]37",
+          "description": "ImageOrientation(Tomo)",
+          "value_representation": "DS",
+          "value_multiplicity": "6"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]50",
+          "description": "ProjectionSeriesInstanceUID",
+          "value_representation": "UI",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]60",
+          "description": "PrimaryPositionerScanArc",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]61",
+          "description": "SecondaryPositionerScanArc",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]62",
+          "description": "PrimaryPositionerScanStartAngle",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]63",
+          "description": "SecondaryPositionerScanStartAngle",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]64",
+          "description": "PrimaryPositionerIncrement",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0051,[SIEMENS MED SP DXMG WH AWS 1]65",
+          "description": "SecondaryPositionerIncrement",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0055,[SIEMENS MED SP DXMG WH AWS 1]01",
+          "description": "ProjectionViewDisplayString",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "From Siemens DICOM Conformance statement MAMMOMAT Inspiration WH AWS VB41"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0071,[SIEMENS MED PT]21",
+          "description": "RegistrationMatrixUID",
+          "value_representation": "UI",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0071,[SIEMENS MED PT]22",
+          "description": "DecayCorrectionDateTime",
+          "value_representation": "DT",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0071,[SIEMENS MED PT]23",
+          "description": "RegistrationMatrix",
+          "value_representation": "FD",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0071,[SIEMENS MED PT]24",
+          "description": "TableMotion",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "From Siemens DICOM Conformance statement Biograph mCT VG60A"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0071,[SIEMENS MED PT MU MAP]01",
+          "description": "SOPClassOfSource",
+          "value_representation": "UI",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0071,[SIEMENS MED PT MU MAP]02",
+          "description": "RelatedMuMapSeries",
+          "value_representation": "UI",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]0a",
+          "description": "NumberOfImagesInMosaic",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]0b",
+          "description": "SliceMeasurementDuration",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]0c",
+          "description": "B_value",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]0d",
+          "description": "DiffusionDirectionality",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]0e",
+          "description": "DiffusionGradientDirection",
+          "value_representation": "FD",
+          "value_multiplicity": "3"
+        },
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]0f",
+          "description": "GradientMode",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]27",
+          "description": "B_matrix",
+          "value_representation": "FD",
+          "value_multiplicity": "6"
+        },
+        {
+          "identifier": "0019,[SIEMENS MR HEADER]28",
+          "description": "BandwidthPerPixelPhaseEncode",
+          "value_representation": "FD",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "7005,[TOSHIBA_MEC_CT3]0b",
+          "description": "Filter",
+          "value_representation": "SH",
+          "value_multiplicity": "2"
+        },
+        {
+          "identifier": "7005,[TOSHIBA_MEC_CT3]1b",
+          "description": "ConvolutionKernel",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "7005,[TOSHIBA_MEC_CT3]23",
+          "description": "PitchFactor",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "7005,[TOSHIBA_MEC_CT3]41",
+          "description": "RawSliceInformation",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "7005,[TOSHIBA_MEC_CT3]92",
+          "description": "ReconProcess",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "7005,[TOSHIBA_MEC_CT3]93",
+          "description": "AcquisitionMode",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0029,[SIEMENS CSA HEADER]08",
+          "description": "CSAImageHeaderType",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS CSA HEADER]09",
+          "description": "CSAImageHeaderVersion",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS CSA HEADER]10",
+          "description": "CSAImageHeaderInfo",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS CSA HEADER]18",
+          "description": "CSASeriesHeaderType",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS CSA HEADER]19",
+          "description": "CSASeriesHeaderVersion",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS CSA HEADER]20",
+          "description": "CSASeriesHeaderInfo",
+          "value_representation": "OB",
+          "value_multiplicity": "3"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0021,[SIEMENS Ultrasound S2000]00",
+          "description": " NipplePositionMarker",
+          "value_representation": "US",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS Ultrasound S2000]01",
+          "description": " ABVSClipDerivedFromVolume ",
+          "value_representation": "US",
+          "value_multiplicity": "1-n"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]00",
+          "description": "ReviewMode",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]01",
+          "description": "AnatomicalBackgroundPercent",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]02",
+          "description": "NumberofPhases",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]03",
+          "description": "ApplyAnatomicalBackground",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]04",
+          "description": "PixelShiftArray",
+          "value_representation": "SS",
+          "value_multiplicity": "4-4n"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]05",
+          "description": "Brightness",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]06",
+          "description": "Contrast",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]07",
+          "description": "EnabledShutters",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]08",
+          "description": "NativeEdgeEnh.PercentGain",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]09",
+          "description": "NativeEdgeEnh.LUTIndex",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]0a",
+          "description": "NativeEdgeEnh.KernelSize",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]0b",
+          "description": "Subtr.EdgeEnh.PercentGain",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]0c",
+          "description": "Subtr.EdgeEnh.LUTIndex",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]0d",
+          "description": "Subtr.EdgeEnh.KernelSize",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]0e",
+          "description": "FadePercent",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]0f",
+          "description": "FlippedbeforeLateralityApplied",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]10",
+          "description": "ApplyFade",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]12",
+          "description": "Zoom",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]13",
+          "description": "PanX",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]14",
+          "description": "PanY",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]15",
+          "description": "NativeEdgeEnh.AdvPercentGain",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]16",
+          "description": "Subtr.EdgeEnh.AdvPercentGain",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]17",
+          "description": "InvertFlag",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]1b",
+          "description": "AcquisitionSize",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]1c",
+          "description": "AutoWindowCenter",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]1d",
+          "description": "AutoWindowWidth",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]1e",
+          "description": "AutoWindowCorrectValue",
+          "value_representation": "IS",
+          "value_multiplicity": "2"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]1f",
+          "description": "SigmoidWindowParameter",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]20",
+          "description": "RoadmapCatheterContrast",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]21",
+          "description": "RoadmapVesselContrast",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]23",
+          "description": "ICStentROIOrigin",
+          "value_representation": "US",
+          "value_multiplicity": "2"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]24",
+          "description": "ICStentROISize",
+          "value_representation": "US",
+          "value_multiplicity": "2"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]25",
+          "description": "VFRInfo",
+          "value_representation": "US",
+          "value_multiplicity": "2-2n"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]30",
+          "description": "Frame#Roadmap-MinAmplification",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]31",
+          "description": "Frame#Roadmap-VesselMap",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]41",
+          "description": "PixelShiftValues",
+          "value_representation": "FL",
+          "value_multiplicity": "6-6n"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]42",
+          "description": "PixelShiftIndicator",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]43",
+          "description": "AppliedPixelShiftValues",
+          "value_representation": "FL",
+          "value_multiplicity": "6-6n"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]44",
+          "description": "PixelShiftValidity",
+          "value_representation": "US",
+          "value_multiplicity": "2-2n"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]51",
+          "description": "UIPnatProcessingMode",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]52",
+          "description": "UIPnatDDOKernelSize",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]53",
+          "description": "UIPnatDDOGain",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]54",
+          "description": "UIPnatConstrast",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]55",
+          "description": "UIPnatDynamic",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]56",
+          "description": "UIPnatAdaptiveFlavor",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]57",
+          "description": "UIPnatPeakReduction",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]58",
+          "description": "UIPnatBrightnessControl",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0019,[SIEMENS SMS-AX  VIEW 1.0]59",
+          "description": "UIPnatBrightnessValue",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]00",
+          "description": "AcquisitionType",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]01",
+          "description": "AcquisitionMode",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]02",
+          "description": "FootswitchIndex",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]03",
+          "description": "AcquisitionRoom",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]04",
+          "description": "CurrentTimeProduct",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]05",
+          "description": "Dose",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]08",
+          "description": "SkinDoseRate",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]0a",
+          "description": "CopperFilter",
+          "value_representation": "UL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]0b",
+          "description": "MeasuringField",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]0e",
+          "description": "TotalSteps",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]0f",
+          "description": "DynaX-RayInfo",
+          "value_representation": "SL",
+          "value_multiplicity": "4-4n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]10",
+          "description": "ModalityLUTInputGamma",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]11",
+          "description": "ModalityLUTOutputGamma",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]12",
+          "description": "SH_STPAR",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]14",
+          "description": "DynaAngulationStep",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]15",
+          "description": "DDOValue",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]16",
+          "description": "DRSingleFlag",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]17",
+          "description": "SourcetoIsocenter",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]19",
+          "description": "ECGIndexArray",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]1b",
+          "description": "SH_ZOOM",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]1c",
+          "description": "SH_COLPAR",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]1d",
+          "description": "K-Factor",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]1e",
+          "description": "EVE",
+          "value_representation": "US",
+          "value_multiplicity": "8"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]1f",
+          "description": "TotalSceneTime",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]20",
+          "description": "RestoreFlag",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]21",
+          "description": "StandMovementFlag",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]22",
+          "description": "FDRows",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]23",
+          "description": "FDColumns",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]24",
+          "description": "TableMovementFlag",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]28",
+          "description": "GammaLUTSequence",
+          "value_representation": "SQ",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]29",
+          "description": "SceneTimeins",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]2a",
+          "description": "3DCardiacPhaseCenter",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]2b",
+          "description": "3DCardiacPhaseWidth",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]30",
+          "description": "OrganProgramInfo",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]31",
+          "description": "SourceImageDistance",
+          "value_representation": "SS",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]32",
+          "description": "OriginalPixelSpacing",
+          "value_representation": "DS",
+          "value_multiplicity": "2"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]3b",
+          "description": "mAsModulation",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]3c",
+          "description": "3DR-PeakReferenceTime",
+          "value_representation": "DT",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]3d",
+          "description": "ECGFrameTimeVector",
+          "value_representation": "SL",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]3e",
+          "description": "ECGStartTimeofRun",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]40",
+          "description": "GammaLUTDescriptor",
+          "value_representation": "US",
+          "value_multiplicity": "3"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]41",
+          "description": "GammaLUTType",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]42",
+          "description": "GammaLUTData",
+          "value_representation": "US",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]43",
+          "description": "GlobalGain",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]44",
+          "description": "GlobalOffset",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]45",
+          "description": "DippMode",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]46",
+          "description": "ArtisSystemType",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]47",
+          "description": "ArtisTableType",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]48",
+          "description": "ArtisTableTopType",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]49",
+          "description": "WaterValue",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]4a",
+          "description": "CNRFlag",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]4b",
+          "description": "CNRDemandedValue",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]4b",
+          "description": "CNRAchievedValue",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]50",
+          "description": "X-rayTubeType",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]51",
+          "description": "3DPositionerPrimaryStartAngle",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]52",
+          "description": "3DPositionerSecondaryStartAngle",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]53",
+          "description": "StandPosition",
+          "value_representation": "SS",
+          "value_multiplicity": "3"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]54",
+          "description": "RotationAngle",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]55",
+          "description": "ImageRotation",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]56",
+          "description": "TableCoordinates",
+          "value_representation": "SS",
+          "value_multiplicity": "3"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]57",
+          "description": "IsocenterTablePosition",
+          "value_representation": "SS",
+          "value_multiplicity": "3"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]58",
+          "description": "TableObjectDistance",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]59",
+          "description": "C-ArmCoordinateSystem",
+          "value_representation": "FL",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]5a",
+          "description": "RobotAxes",
+          "value_representation": "FL",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]5b",
+          "description": "TableCoordinateSystem",
+          "value_representation": "FL",
+          "value_multiplicity": "12"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]5c",
+          "description": "PatientCoordinateSystem",
+          "value_representation": "FL",
+          "value_multiplicity": "12"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]5d",
+          "description": "Angulation",
+          "value_representation": "SL",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]5e",
+          "description": "Orbital",
+          "value_representation": "SL",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]61",
+          "description": "LargeVolumeOverlap",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]62",
+          "description": "ReconstructionPreset",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]63",
+          "description": "3DStartAngle",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]64",
+          "description": "3DPlannedAngle",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]65",
+          "description": "3DRotationPlaneAlpha",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]66",
+          "description": "3DRotationPlaneBeta",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]67",
+          "description": "3DFirstImageAngle",
+          "value_representation": "SL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]68",
+          "description": "3DTriggerAngle",
+          "value_representation": "SS",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]71",
+          "description": "DetectorRotation",
+          "value_representation": "DS",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]72",
+          "description": "PhysicalDetectorRotation",
+          "value_representation": "SL",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]81",
+          "description": "TableHeadTilt",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]82",
+          "description": "TableRotation",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]83",
+          "description": "TableCradleTilt",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]84",
+          "description": "ArtisSystemFamily",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]a3",
+          "description": "3DCardiacTriggerSequence",
+          "value_representation": "SQ",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]a4",
+          "description": "3DFrameReferenceDateTime",
+          "value_representation": "DT",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]a5",
+          "description": "3DCardiacTriggerDelayTime",
+          "value_representation": "FD",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0021,[SIEMENS SMS-AX  ACQ 1.0]a6",
+          "description": "3DR-RIntervalTimeMeasured",
+          "value_representation": "FD",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0023,[SIEMENS SMS-AX  QUANT 1.0]08",
+          "description": "CalibrationTODValue",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]00",
+          "description": "ViewNative",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]01",
+          "description": "OriginalSeriesNumber",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]02",
+          "description": "OriginalImageNumber",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]03",
+          "description": "WinCenter",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]04",
+          "description": "WinWidth",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]05",
+          "description": "WinBrightness",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]06",
+          "description": "WinContrast",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]07",
+          "description": "OriginalFrameNumber",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]08",
+          "description": "OriginalMaskFrameNumber",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]09",
+          "description": "Opac",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]0a",
+          "description": "OriginalNumberofFrames",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]0b",
+          "description": "OriginalSceneDuration",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]0c",
+          "description": "IdentifierLOID",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]0d",
+          "description": "OriginalSceneVFRInfo",
+          "value_representation": "SS",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]0e",
+          "description": "OriginalFrameECGPosition",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]10",
+          "description": "ZoomFlag",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]11",
+          "description": "FlexiblePixelShift",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]12",
+          "description": "NumberofMaskFrames",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]13",
+          "description": "NumberofFillFrames",
+          "value_representation": "US",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]14",
+          "description": "SeriesNumber",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]15",
+          "description": "ImageNumber",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0025,[SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0]16",
+          "description": "ReadyProcessingStatus",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0029,[SIEMENS CSA NON-IMAGE]08",
+          "description": "CSADataType",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS CSA NON-IMAGE]09",
+          "description": "CSADataVersion",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS CSA NON-IMAGE]10",
+          "description": "CSADataInfo",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]08",
+          "description": "MedComHeaderType",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]09",
+          "description": "MedComHeaderVersion",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]10",
+          "description": "MedComHeaderInfo",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]20",
+          "description": "MedComHistoryInformation",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]31",
+          "description": "PMTFInformation1",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]32",
+          "description": "PMTFInformation2",
+          "value_representation": "UL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]33",
+          "description": "PMTFInformation3",
+          "value_representation": "UL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]34",
+          "description": "PMTFInformation4",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]35",
+          "description": "PMTFInformation5",
+          "value_representation": "UL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]40",
+          "description": "ApplicationHeaderSequence",
+          "value_representation": "SQ",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]41",
+          "description": "ApplicationHeaderType",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]42",
+          "description": "ApplicationHeaderID",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]43",
+          "description": "ApplicationHeaderVersion",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]44",
+          "description": "ApplicationHeaderInfo",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]50",
+          "description": "WorkflowControlFlags",
+          "value_representation": "LO",
+          "value_multiplicity": "8"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]51",
+          "description": "Arch.ManagementFlagKeepOnline",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]52",
+          "description": "Arch.MgmntFlagDoNotArchive",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]53",
+          "description": "ImageLocationStatus",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]54",
+          "description": "EstimatedRetrieveTime",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM HEADER]55",
+          "description": "DataSizeofRetrievedImages",
+          "value_representation": "DS",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0029,[SIEMENS MEDCOM OOG]08",
+          "description": "MedComOOGType",
+          "value_representation": "CS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM OOG]09",
+          "description": "MedComOOGVersion",
+          "value_representation": "LO",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[SIEMENS MEDCOM OOG]10",
+          "description": "MedComOOGInfo",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0029,[CARDIO-D.R. 1.0]00",
+          "description": "StandardEdgeEnhancementSequence",
+          "value_representation": "SQ",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0029,[CARDIO-D.R. 1.0]01",
+          "description": "ConvolutionKernelSize",
+          "value_representation": "US",
+          "value_multiplicity": "2"
+        },
+        {
+          "identifier": "0029,[CARDIO-D.R. 1.0]02",
+          "description": "ConvolutionKernelCoefficients",
+          "value_representation": "US",
+          "value_multiplicity": "1-n"
+        },
+        {
+          "identifier": "0029,[CARDIO-D.R. 1.0]03",
+          "description": "EdgeEnhancementGain",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]01",
+          "description": "CalibrationMethod",
+          "value_representation": "ST",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]02",
+          "description": "CalibrationMethodInfo",
+          "value_representation": "ST",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]03",
+          "description": "CalibrationObjectSize",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]04",
+          "description": "CalibrationObjectSDev",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]05",
+          "description": "CalibrationHorizontalPixelSpacing",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]06",
+          "description": "CalibrationVerticalPixelSpacing",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]08",
+          "description": "CalibrationFileName",
+          "value_representation": "ST",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]09",
+          "description": "CalibrationFrameNumber",
+          "value_representation": "IS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]0a",
+          "description": "CalibrationObjectUnit",
+          "value_representation": "SH",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]0b",
+          "description": "AveragedCalibrationsPerformed",
+          "value_representation": "SS",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]0c",
+          "description": "AutoMagnifyFactor",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]0d",
+          "description": "HorizontalPixelSDev",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private Calibration Module Version 2.0]0e",
+          "description": "VerticalPixelSDev",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "2121,[PMI Private 3D Reconstruction Attributes V]01",
+          "description": "rsion1.0Binary3DVesselData",
+          "value_representation": "OB",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "2121,[PMI Private 3D Reconstruction Attributes Version 1.0]02",
+          "description": "3DControlDisplayedAreaSequence",
+          "value_representation": "SQ",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "2121,[PMI Private 3D Reconstruction Attributes Version 1.0]03",
+          "description": "3DControlDisplayedAreaTopLeftCorner",
+          "value_representation": "SL",
+          "value_multiplicity": "2"
+        },
+        {
+          "identifier": "2121,[PMI Private 3D Reconstruction Attributes Version 1.0]04",
+          "description": "3DControlDisplayedAreaBottomRightCorner",
+          "value_representation": "SL",
+          "value_multiplicity": "2"
+        }
+      ],
+      "justification": "Based on CTP script"
+    },
+    {
+      "elements": [
+        {
+          "identifier": "0033,[SIEMENS MED NM]1038",
+          "description": "Pixel scale factor",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        },
+        {
+          "identifier": "0033,[SIEMENS MED NM]38",
+          "description": "Pixel scale factor",
+          "value_representation": "FL",
+          "value_multiplicity": "1"
+        }
+      ],
+      "justification": "Based on CTP script"
+    }
+  ]
+}
